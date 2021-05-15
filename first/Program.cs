@@ -8,6 +8,7 @@ namespace first
     {
         static void Main(string[] args)
         {
+            // test changes
             using (SqlConnection connection =
                 new SqlConnection(@"Data Source=localhost,1433\sql1;Initial Catalog=demo2021;User ID=sa;Password=Passw0rd%"))
                 // new SqlConnection(@"Data Source=(localdb)\MSSQLLocalDB;Initial Catalog=demo2021;Integrated Security=True"))
